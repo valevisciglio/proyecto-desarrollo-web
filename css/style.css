@@ -64,6 +64,7 @@ a{
     text-shadow: 20px;
     position: relative;
     top: 250px;
+    text-shadow: 3px 3px 3px black;
 }
 
 .texto-1{
@@ -87,7 +88,9 @@ a{
 }
 
 .tarjeta-1{
-    border: solid 2px white;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 3px 3px 3px rgb(219, 219, 219);
+    border-radius: 10px;
     padding: 10px;
     margin-left: 40px;
     margin-right: 40px;
@@ -95,6 +98,12 @@ a{
     height: auto;
     display: inline-block;
     text-align: center;
+    
+}
+
+.tarjeta-1:hover{
+    box-shadow: 9px 9px 7px rgb(219, 219, 219);
+    background-color: rgb(228, 228, 228);
 }
  
 .titulo-2{
@@ -111,8 +120,8 @@ a{
     background-color: black;
     color: white;
     padding: 50px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .sobre-nosotros{
@@ -144,6 +153,7 @@ a{
     margin-right: 80px;
 }
 
+
 @media screen and (max-width:780px) {
     .grilla-1{
         grid-template-columns: 1fr;
@@ -160,6 +170,12 @@ a{
     background-position: center;
 }
 
+.grilla-img:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+    
+}
+
 .seccion-5{
     margin-top: 48px;
     margin-bottom: 24px;
@@ -168,15 +184,21 @@ a{
 }
 
 .tarjeta-2{
-    border: solid 2px black;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 3px 3px 3px rgb(219, 219, 219);
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
     margin: 15px;
     width: 400px;
     height: auto;
     display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
+}
+
+.tarjeta-2:hover{
+    box-shadow: 9px 9px 7px rgb(219, 219, 219);
+    background-color: rgb(228, 228, 228);
 }
 
 .formulario{
